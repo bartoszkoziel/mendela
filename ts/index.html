@@ -15,14 +15,24 @@
         }
 
         #main {
-            border: 2px solid blue;
+            padding: 1em;
+            border: 2px solid black;
+            width: calc(8 * 40px);
+            height: calc(16 * 40px);
+        }
+
+        .block {
+            width: 40px;
+            height: 40px;
+            float: left;
+            outline: 1px black solid;
         }
     </style>
 </head>
 
 <body>
     <div id="main"></div>
-    <script src="ts.js"></script>
+    <script defer src="ts.js"></script>
 </body>
 
 </html>
